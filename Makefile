@@ -112,6 +112,8 @@ github: publish
 git: publish
 	ghp-import -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
 	git push origin $(GITHUB_PAGES_BRANCH)
+
+git_test: publish
 	ghp-import -b $(GITHUB_SOURCE_BRANCH) $(BASEDIR)
 	git push origin $(GITHUB_SOURCE_BRANCH)
 
