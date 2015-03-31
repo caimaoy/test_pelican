@@ -1,6 +1,2 @@
 # test_pelican
-test of  pelican  
-
-
-# test
-
+test of pelican
