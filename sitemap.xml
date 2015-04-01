@@ -4,57 +4,71 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>caimaoy.github.io/</loc>
-<lastmod>2015-03-31T19:34:41-00:00</lastmod>
+<loc>/</loc>
+<lastmod>2015-04-01T12:08:49-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>caimaoy.github.io/archives.html</loc>
-<lastmod>2015-03-31T19:34:41-00:00</lastmod>
+<loc>/archives.html</loc>
+<lastmod>2015-04-01T12:08:49-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>caimaoy.github.io/tags.html</loc>
-<lastmod>2015-03-31T19:34:41-00:00</lastmod>
+<loc>/tags.html</loc>
+<lastmod>2015-04-01T12:08:49-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>caimaoy.github.io/categories.html</loc>
-<lastmod>2015-03-31T19:34:41-00:00</lastmod>
+<loc>/categories.html</loc>
+<lastmod>2015-04-01T12:08:49-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>caimaoy.github.io/blog_test.html</loc>
-<lastmod>2015-01-22T10:20:00+01:00</lastmod>
+<loc>/articles/2015/04/01/build-blog-on-github-with-pelican/</loc>
+<lastmod>2015-04-01T09:51:00+00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>caimaoy.github.io/category/wen-zhang-fen-lei.html</loc>
-<lastmod>2015-01-22T10:20:00+00:09</lastmod>
+<loc>/category/blog.html</loc>
+<lastmod>2015-04-01T09:51:00+00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>caimaoy.github.io/tag/wen-zhang-biao-qian.html</loc>
-<lastmod>2015-01-22T10:20:00+00:09</lastmod>
+<loc>/tag/python.html</loc>
+<lastmod>2015-04-01T09:51:00+00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>caimaoy.github.io/author/zuo-zhe.html</loc>
-<lastmod>2015-01-22T10:20:00+00:09</lastmod>
+<loc>/tag/pelican.html</loc>
+<lastmod>2015-04-01T09:51:00+00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/tag/github.html</loc>
+<lastmod>2015-04-01T09:51:00+00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/author/caimaoy.html</loc>
+<lastmod>2015-04-01T09:51:00+00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
