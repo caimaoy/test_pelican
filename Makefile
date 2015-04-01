@@ -60,7 +60,8 @@ html:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
 clean:
-	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
+	# [ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
+	rm -rf $(OUTPUTDIR)
 
 regenerate:
 	$(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
@@ -110,6 +111,9 @@ github: publish
 	git push origin $(GITHUB_PAGES_BRANCH)
 
 git: publish
+	git add .
+	git ci -a -m "update"
+	git push origin master
 	ghp-import -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR) -p
 
 git_test: publish
