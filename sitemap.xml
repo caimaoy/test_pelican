@@ -5,41 +5,55 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/</loc>
-<lastmod>2015-04-01T12:08:49-00:00</lastmod>
+<lastmod>2015-04-01T16:47:23-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/archives.html</loc>
-<lastmod>2015-04-01T12:08:49-00:00</lastmod>
+<lastmod>2015-04-01T16:47:23-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/tags.html</loc>
-<lastmod>2015-04-01T12:08:49-00:00</lastmod>
+<lastmod>2015-04-01T16:47:23-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/categories.html</loc>
-<lastmod>2015-04-01T12:08:49-00:00</lastmod>
+<lastmod>2015-04-01T16:47:23-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/articles/2015/04/01/build-blog-on-github-with-pelican/</loc>
+<loc>/build-blog-on-github-with-pelican.html</loc>
 <lastmod>2015-04-01T09:51:00+00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>/category/blog.html</loc>
+<loc>/about-me.html</loc>
+<lastmod>2015-04-01T15:43:00+00:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>/category/about-me.html</loc>
+<lastmod>2015-04-01T15:43:00+00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/category/it.html</loc>
 <lastmod>2015-04-01T09:51:00+00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -47,7 +61,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/tag/python.html</loc>
-<lastmod>2015-04-01T09:51:00+00:00</lastmod>
+<lastmod>2015-04-01T15:43:00+00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -60,15 +74,22 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>/tag/about-me.html</loc>
+<lastmod>2015-04-01T15:43:00+00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>/tag/github.html</loc>
-<lastmod>2015-04-01T09:51:00+00:00</lastmod>
+<lastmod>2015-04-01T15:43:00+00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/author/caimaoy.html</loc>
-<lastmod>2015-04-01T09:51:00+00:00</lastmod>
+<lastmod>2015-04-01T15:43:00+00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
