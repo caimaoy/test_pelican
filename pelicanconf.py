@@ -4,18 +4,15 @@ from __future__ import unicode_literals
 
 AUTHOR = u'caimaoy'
 SITENAME = u"caimaoy's blog"
-# SITEURL = ''
-SITEURL = 'caimaoy.github.io'
+SITEURL = ''
 
 PATH = 'content'
-
-TIMEZONE = 'Europe/Paris'
 
 # DEFAULT_LANG = u'en'
 
 DEFAULT_LANG = u"zh"#默认语言设置
 # DATE_FORMAT={"zh":("zh_CN","%Y-%m-%d,%a"),}#日期格式设置，可按自己喜好设定
-TIME_ZONE = u"Asia/Shanghai"#时区设置
+TIME_ZONE = "Asia/Shanghai"#时区设置
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -48,6 +45,8 @@ DISQUS_SITENAME = u'caimaoy'
 FEED_RSS = u"feeds/all.rss.xml"
 CATEGORY_FEED_RSS=u"feeds/%s.rss.xml"#为分类添加Feed
 
+ARTICLE_URL = 'articles/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
+ARTICLE_SAVE_AS = 'articles/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
 # plugin config
 # PLUGIN_PATHS = ['./plugins']
@@ -83,4 +82,5 @@ SITEMAP = {
         }
      }
 
-THEME = r'.\pelican-themes\bootstrap2-dark'
+# THEME = r'.\pelican-themes\bootstrap2-dark'
+#THEME = r'.\pelican-themes\SoMA'
